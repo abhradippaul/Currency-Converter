@@ -1,0 +1,50 @@
+.app {
+  width: 80vw;
+  height: 400px;
+  max-width: 600px;
+  outline: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.inputBox{
+  width: 90%;
+  height: 40%;
+  border-radius: 10px;
+  color: grey;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.heading{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input input{
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+}
+.input select {
+  text-align: start;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  padding: .5rem;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 4px;
+}
